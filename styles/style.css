@@ -1,1 +1,20 @@
-styles
+.image-container {
+    background-image: url('https://img.belta.by/images/storage/news/with_archive/2021/000029_1618498099_437376_big.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Значение rgba(0,0,0,0.5) задает полупрозрачный черный цвет фона */
+  }
+  
+  h1 {
+    color: rgb(145, 145, 216);
+
+    font-size: 8em;
+    text-align:center    
+  }
